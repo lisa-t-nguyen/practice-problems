@@ -2,6 +2,10 @@
 // and returns an array of these integers in sorted order from least to greatest
 
 function bubbleSort(array) {
+  // if you want to keep the array pure, make a shallow copy of the array (not
+  // mutating the original array)
+  // you can do that by creating a const arr = array.slice(); and replacing
+  // all array with arr
   for (let i = 0; i < array.length - 1; i++) {
     for (let j = 0; j < array.length - 1 - i; j++) {
       if (array[j] > array[j + 1]) {
