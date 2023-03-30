@@ -8,6 +8,8 @@ function bubbleSort(array) {
         const temp = array[j];
         array[j] = array[j + 1];
         array[j + 1] = temp;
+        // above 3 lines could be replaced with:
+        // [array[j], array[j + 1]] = [array[j + 1], [array][j]];
       }
     }
   }
