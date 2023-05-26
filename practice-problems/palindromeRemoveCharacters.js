@@ -1,3 +1,12 @@
+// Have the function StringChallenge(str) take a string and determine whether a 
+// palindrome can be created by removing 0, 1, or 2 characters.
+// If 0, return "Palindrome"
+// If 1, return the first character that could be removed to produce a palindrome.
+// If 2, return the first two characters that could be removed to produce a palindrome. 
+// (they don't have to be adjacent, and return the longest possible palindrome combination)
+// Otherwise, return "not possible"
+
+
 function palindromeRemoveCharacters(str) {
   if (str.length < 3) { return 'not possible'; }
   if (isPalindrome(str)) { return 'palindrome'; }
