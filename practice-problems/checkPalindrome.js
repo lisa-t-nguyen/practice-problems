@@ -25,3 +25,14 @@ solution('asdfe');
 // LOOP
 // i = 2, is 2 < 1.5? NO, stop looping
 // return true
+
+// "abba"
+// const stringLength = 4;
+// LOOP
+// stringLength / 2 = 1
+// i = 0, is 0 < 2? YES
+// "a" === "a" true
+// i = 1, is 1 < 2? YES
+// "b" === "b" true
+// i = 2, is 2 < 2, NO, exit loop
+// return true
